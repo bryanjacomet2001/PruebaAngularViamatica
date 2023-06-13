@@ -1,0 +1,17 @@
+<div class="container_form">
+    <h2>BIENVENIDOS</h2>
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Usuario</mat-label>
+          <input matInput placeholder="Usuario" name="nombreUsuario" [(ngModel)]="usuario.nombreUsuario" >
+        </mat-form-field>
+      
+        <mat-form-field class="example-full-width">
+            <mat-label>Contraseña</mat-label>
+            <input matInput placeholder="Contraseña" name="contrasenia" [(ngModel)]="usuario.contrasenia">
+          </mat-form-field>
+
+          <button mat-button color="primary" (click)="iniciarSesion()">Iniciar Sesión</button>
+      </form>
+</div>
+

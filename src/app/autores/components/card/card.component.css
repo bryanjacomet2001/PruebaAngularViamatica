@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 400px;
+    margin: 1rem 0;
+    background-color: #E67E22;
+  }
+  
+  .container_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  
+  }

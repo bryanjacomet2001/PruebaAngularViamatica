@@ -1,0 +1,24 @@
+.container_favoritos{
+    padding: 2rem;
+}
+
+.container_favorite{
+    max-width: 1000px;
+    padding: 1rem;
+    border: 1px solid gray;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: red;
+    color: #fff;
+}
+
+.container_nav_favoritos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

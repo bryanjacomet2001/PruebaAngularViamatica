@@ -1,0 +1,21 @@
+<div class="contianer_nav">
+    <h2>Lista de Autores</h2>
+    <div class="container_nav_btn">
+        <button mat-fab extended color="warn" class="btn_favorite" (click)="irFavoritos()">
+            <mat-icon>favorite</mat-icon>
+            Obras Favoritas
+        </button>
+        <button mat-fab extended color="accent" (click)="cerrarSesion()">
+            <mat-icon>logout</mat-icon>
+            Cerrar Sesión
+        </button>
+    </div>
+</div>
+
+<div *ngIf="!dataAutores" class="container_spinner">
+    <mat-spinner></mat-spinner>
+</div>
+
+<div class="container_listado">
+    <app-card [autores] = dataAutores></app-card>
+</div>
